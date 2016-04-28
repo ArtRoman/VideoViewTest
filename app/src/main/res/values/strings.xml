@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">VideoTest</string>
+    <string name="default_video_activity_name">Default VideoView</string>
+    <string name="custom_video_activity_name">Custom VideoView</string>
+    <string name="exoplayer_video_activity_name">Exoplayer video</string>
+
+    <string name="video_added_status">Video initialized %1$d times in %2$d ms</string>
+    <string name="video_showing_status">Video initialized %1$d times, displaying video</string>
+    <string name="video_init_error">Video %1$d init error (%2$d, %3$d)</string>
+    <string name="video_adding_error">Error adding video #%1$d, %2$d seconds left from activity start</string>
+    <string name="main_default_button">Default video view</string>
+    <string name="main_custom_button">Custom video view</string>
+    <string name="main_exoplayer_button">Exoplayer</string>
+</resources>

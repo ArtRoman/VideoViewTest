@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/main_button_default_videoview"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="@string/main_default_button" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/main_button_custom_videoview"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="@string/main_custom_button" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/main_button_explayer_videoview"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="@string/main_exoplayer_button" />
+
+</LinearLayout>
