@@ -16,9 +16,7 @@ public class AssetsUtils {
 	public static File getExternalVideoFile(Context context) {
 		File externalFilesDir = getStorageFolder(context);
 		File externalVideoFile = new File(externalFilesDir, VIDEO_FILE_NAME);
-		if (!externalVideoFile.exists()) {
-			AssetsUtils.copyFileFromAssets(context, VIDEO_FILE_NAME, externalVideoFile);
-		}
+		AssetsUtils.copyFileFromAssets(context, VIDEO_FILE_NAME, externalVideoFile);
 		return externalVideoFile;
 	}
 
